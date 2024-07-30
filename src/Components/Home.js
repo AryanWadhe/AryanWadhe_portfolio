@@ -34,7 +34,7 @@ const Home = () => {
           <p>
             I love the Solving bugs is like a thrilling puzzle—each line of code brings me closer to victory.
             In the <b>world of code</b>, challenges become adventures and I am ready for that.<br /><br />
-            I am fluent in <b>C++</b> and decent in <b>Competitive Programming. </b> In addition to my development work, I actively participate in competitive programming to sharpen my <b>problem-solving skills.</b> <br /><br />
+            I am fluent in <b>C++</b> and decent in <b>Competitive Programming. </b> In addition to my development work, I actively participate in competitive programming contests to sharpen my <b>problem-solving skills.</b> <br /><br />
             I’m a <b>Writing</b> enthusiast! <FaPen style={{ scale: "1.1", rotate: "15deg" }} />
             <br />
             <b>#</b>Writer OP <FaFileAlt style={{ scale: "1", rotate: "0deg" }} />
