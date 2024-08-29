@@ -16,6 +16,8 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     // NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
     // NewsletterGithub:"",
     // NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
+    SuperHeroDesc : "Developed this in early leraning of CSS and HTML. This website has featuring sleek designs, vibrant CSS, and captivating animations. Explore about your favorite heroes, and enjoy a seamless browsing experience.",
+    SuperHerohub : "https://github.com/AryanWadhe/marvel-heroes",
     
     QuickStaffDesc:"Engineered a QuickStaff platform to match users with service providers, reducing search time by 50%. Deployed Hygraph schema for efficient data management reducing data retrieval times by 40%.",
     QuickStaffGithub:"https://github.com/AryanWadhe/Quickstaff_",
