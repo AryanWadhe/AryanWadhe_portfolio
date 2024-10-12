@@ -39,14 +39,15 @@ const Nav = () => {
 
   return (
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
-      <img
-        src={logo}
-        alt="Logo"
-        title="Reload"
-        onClick={() => window.location.reload(true)}
-        className="Logo"
-        style={{ cursor: "pointer", width: '10%', height: '70%' }}
-      />
+       <Link to="/" onClick={hideMenu}>
+        <img
+          src={logo}
+          alt="Logo"
+          title="Go to Home"
+          className="Logo"
+          style={{ cursor: "pointer", width: '28%', height: '70%' }}
+        />
+      </Link>
 
       <div className="Hamburger" onClick={showMenu}>
         <span className="bar"></span>
