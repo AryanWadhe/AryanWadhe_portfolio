@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BsDownload } from "react-icons/bs";
+import { BsDownload ,BsArrowBarUp} from "react-icons/bs";
 import pdf from "../Resume.pdf";
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
@@ -28,6 +28,11 @@ const Resume = () => {
           <h3><BsDownload />&nbsp; Download CV</h3>
         </button>
       </a>
+      <a href="https://drive.google.com/file/d/1PHsX_pGkVbpvP_Z7mBxwtUVbt6sCXBpN/view" target='_blank' rel="noopener noreferrer">
+          <button className='downloadCV' type='button' style={{ marginLeft: '20px' }}>
+            <h3><BsArrowBarUp />&nbsp; View on Drive</h3>
+          </button>
+        </a>
     </div>
   );
 }
