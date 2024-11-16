@@ -4,12 +4,14 @@ import marvel from '../images/marvel.png';
 import Crypto from '../images/Crypto.png';
 import EasyBill from '../images/EasyBill.png';
 import QuickStaff from '../images/QuickStaff.png';
+import Modify from '../images/modify.png';
 
 const Projects = () => {
   return (
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
+        <ProjectBox projectPhoto={Modify} projectName="Modify"/>
         <ProjectBox projectPhoto={EasyBill} projectName="EasyBill" />
         <ProjectBox projectPhoto={QuickStaff} projectName="QuickStaff" />
         <ProjectBox projectPhoto={marvel} projectName="SuperHero" />

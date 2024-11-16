@@ -27,6 +27,11 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     EasyBillDesc:"Developed a comprehensive Billing platform enabling users to create, manage, and send professional invoices. Automated PDF invoices and email distribution using PDFKit.Integrated real-time analytics dashboards, providing users with insights into their billing and payment trends.",
     EasyBillGithub:"https://github.com/AryanWadhe/QuickBill",
     EasyBillWebsite:"https://quick-bill-client.vercel.app/",
+
+
+    ModifyDesc:"Modify is a unique web application that combines music streaming with real-time interaction. It includes an admin dashboard for content management, real-time analytics, a live chat feature, and the ability to see what others are listening to. Perfect for fans of PM Modi who want an immersive and interactive music experience.",
+    ModifyGithub:"https://github.com/AryanWadhe/Modify",
+    ModifyWebsite:"https://modify-kioq.onrender.com/",
   }
 
   let show ='';
